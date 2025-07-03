@@ -1,0 +1,6 @@
+#pip install -r requirements.txt
+#cargar las librerias con las versiones
+streamlit==1.35.0
+pandas==2.2.2
+mysql-connector-python==8.3.0
+python-dotenv==1.0.1

@@ -1,0 +1,42 @@
+# Paquetes base y manejo de datos
+numpy==1.26.4
+pandas==2.2.1
+scipy==1.12.0
+
+# Conexión a bases de datos y formatos
+mysql-connector-python==8.3.0
+python-dotenv==1.0.1
+
+# Web scraping y requests
+beautifulsoup4==4.12.3
+requests==2.31.0
+
+# Machine Learning y procesamiento
+scikit-learn==1.4.1.post1
+tensorflow==2.15.0
+keras==2.15.0
+
+# Visualización
+matplotlib==3.8.3
+seaborn==0.13.2
+plotly==5.18.0
+
+# Streamlit y frontend
+streamlit==1.31.1
+Pillow==10.2.0
+
+# Utilidades
+python-dateutil==2.9.0.post0
+pytz==2024.1
+
+###¿Cómo usarlo?
+#Guarda esto en un archivo requirements.txt
+
+#Instala con:
+
+#bash
+#pip install -r requirements.txt
+#Notas:
+#Si necesitas alguna versión específica de algún paquete, ajusta el número de versión.
+
+#Para entornos de producción, considera usar pip freeze después de instalar todo para generar un lock exacto de versiones.

@@ -1,0 +1,19 @@
+[theme]
+primaryColor = "#E67E22"  # Naranja automotriz
+backgroundColor = "#FFFFFF"  
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#2C3E50"  # Azul oscuro
+font = "sans serif"
+
+# CSS personalizado para fondo tecnológico (ej: coche futurista)
+[custom]
+css = """
+<style>
+.stApp {
+    background-image: url('..\\static\\pexels-photo-120049.jpeg');
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+</style>
+"""
